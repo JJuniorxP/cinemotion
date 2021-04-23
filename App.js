@@ -2,8 +2,9 @@ import * as React from 'react';
 import { SafeAreaView, StyleSheet, Text, View, StatusBar } from 'react-native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { NavigationContainer } from '@react-navigation/native';
-import ListCliente from './components/Cliente/ListCliente'
 import HomeScreen from './components/HomeScreen'
+import ListCliente from './components/Cliente/ListCliente'
+import AddCliente from './components/Cliente/AddCliente'
 
 const Drawer = createDrawerNavigator()
 
