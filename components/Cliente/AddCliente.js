@@ -1,7 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
 import { Modal, StyleSheet, Text, TextInput, View, TouchableOpacity} from 'react-native';
-import AsyncStorage from '@react-native-async-storage/async-storage'
 const AddCliente = (props) => {
   const initialClienteState = {
     name: "",
@@ -21,7 +20,7 @@ const AddCliente = (props) => {
   }
 
   return(
-    <Modal
+    <Modal  
       visible = {isOpen}
       onRequestClose = {closeModal}
       animationType = "slide"
